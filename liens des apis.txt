@@ -1,0 +1,11 @@
+Chemin des services demandés:
+
+[Les api se trouvent au niveau du dossier controleurs]
+
+SOAP:http://localhost/site_actualite/soap/nuSoapServer/getMembers?wsdl
+
+Rest:
+	*tous les articles: http://localhost/site_actualite/api/Posts/get_all
+	*articles par catégorie: http://localhost/site_actualite/api/Posts/get_all_by_cat
+	*articles pour une categorie donée: http://localhost/site_actualite/api/Posts/get_post_by_cat/$1
+	
